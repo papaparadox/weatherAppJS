@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const { describe } = require("yargs");
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const WEATHER_JSON = path.join(DATA_DIR, "weather.json");
